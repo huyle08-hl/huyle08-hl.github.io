@@ -1,1 +1,320 @@
-Hello,World!
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xin Đừng Rời Khỏi CLB! 🥺</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 30px;
+            padding: 40px;
+            max-width: 600px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            animation: fadeIn 0.8s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            color: #667eea;
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .emoji-big {
+            font-size: 5em;
+            text-align: center;
+            margin: 20px 0;
+            animation: rotate 3s ease-in-out infinite;
+        }
+
+        @keyframes rotate {
+            0%, 100% {
+                transform: rotate(0deg);
+            }
+            25% {
+                transform: rotate(-15deg);
+            }
+            75% {
+                transform: rotate(15deg);
+            }
+        }
+
+        .reason {
+            background: #f8f9ff;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 15px 0;
+            border-left: 5px solid #667eea;
+            transition: transform 0.3s ease;
+        }
+
+        .reason:hover {
+            transform: translateX(10px);
+            background: #eef0ff;
+        }
+
+        .reason-title {
+            font-weight: bold;
+            color: #764ba2;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .reason-text {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .cute-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.2em;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .cute-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.6);
+        }
+
+        .cute-button:active {
+            transform: scale(0.95);
+        }
+
+        .hearts {
+            text-align: center;
+            font-size: 2em;
+            margin: 20px 0;
+            animation: pulse 1.5s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #764ba2;
+            font-style: italic;
+            font-size: 0.9em;
+        }
+
+        .confetti {
+            position: fixed;
+            width: 10px;
+            height: 10px;
+            background: #f0f;
+            position: absolute;
+            animation: confetti-fall 3s linear infinite;
+        }
+
+        @keyframes confetti-fall {
+            to {
+                transform: translateY(100vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+ .image-section {
+        margin: 30px 0;
+    }
+
+    .image-container {
+        background: #f8f9ff;
+        padding: 20px;
+        border-radius: 15px;
+        margin: 20px 0;
+        text-align: center;
+        transition: transform 0.3s ease;
+    }
+
+    .image-container:hover {
+        transform: scale(1.02);
+        box-shadow: 0 5px 20px rgba(102, 126, 234, 0.3);
+    }
+
+    .image-container img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .image-container figcaption {
+        margin-top: 15px;
+        color: #764ba2;
+        font-size: 1.1em;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚨 KHẨN CẤP! KHẨN CẤP! 🚨</h1>
+        
+        <div class="emoji-big">🥺👉👈</div>
+        
+        <div class="hearts">💜 💙 💚 💛 ❤️</div>
+        
+        <h2 style="text-align: center; color: #764ba2; margin-bottom: 30px;">
+            Lý Do Em KHÔNG THỂ Rời Khỏi CLB!
+        </h2>
+	<div class="image-section">
+		<figure class="image-container">
+        <img src="anh2.jpg" alt="Kỷ niệm CLB">
+        <figcaption>🎉 Trân Thái siêu slay!</figcaption>
+		</div>
+
+
+        <div class="reason">
+            <div class="reason-title">🌟 Lý do #1: Không ai thay thế được!</div>
+            <div class="reason-text">
+                CLB mất em = giống như pizza không có phô mai, trà sữa không có trân châu, Sao La không có Trân Thái, 
+                sushi không có cá hồi... Không thể chấp nhận được! 😭
+            </div>
+        </div>
+
+        <div class="reason">
+            <div class="reason-title">⏰ Lý do #2: Về thời gian...</div>
+            <div class="reason-text">
+                Anh và các bạn hiểu mà! Nhưng thật ra... ngày nào cũng có 24 giờ, 
+                trong đó có 23 giờ 59 phút để nhớ em và 1 phút để em ghé CLB thôi mà! 
+                (Đùa thôi, các bạn linh hoạt lắm, hứa luôn! 🤝)
+            </div>
+        </div>
+
+        <div class="reason">
+            <div class="reason-title">🎉 Lý do #3: Những kỷ niệm đẹp!</div>
+            <div class="reason-text">
+                Nhớ lại những lúc mình cùng nhau cười đùa, làm việc, và tạo nên 
+                những khoảnh khắc tuyệt vời... Đừng để nó chỉ là "hồi xưa" được không? 🥹
+            </div>
+        </div>
+
+        <div class="reason">
+            <div class="reason-title">💪 Lý do #4: Các bạn sẽ hỗ trợ!</div>
+            <div class="reason-text">
+                Hãy nói với các bạn về vấn đề thời gian! Có thể các bạn sẽ giảm workload, 
+                linh hoạt lịch trình, hoặc tìm cách khác để em vừa cân bằng vừa ở lại. 
+                Đừng bỏ cuộc mà không cho các bạn cơ hội giúp đỡ! 🤗
+            </div>
+        </div>
+
+        <div class="reason">
+            <div class="reason-title">❤️ Lý do #5 (và quan trọng nhất):</div>
+            <div class="reason-text">
+                Vì các bạn cần em! Không phải vì công việc, mà vì em là một phần 
+                của gia đình Sao La. Một gia đình không thể thiếu bất kỳ thành viên nào! 
+                Đặc biệt là EM! 🌈✨
+            </div>
+        </div>
+
+        <div class="button-container">
+            <button class="cute-button" onclick="showLove()">
+                Bấm nếu em suy nghĩ lại! 💝
+            </button>
+        </div>
+
+        <div class="footer">
+            P/S: Nếu em vẫn muốn rời đi, ít nhất hãy cho các bạn cơ hội nói chuyện trước nhé! 
+            <br>Các bạn đợi em! 🫶
+        </div>
+    </div>
+
+    <script>
+        function showLove() {
+            // Tạo hiệu ứng confetti
+            for (let i = 0; i < 50; i++) {
+                createConfetti();
+            }
+            
+            // Thông báo
+            setTimeout(() => {
+                alert('🎉 YAY! Cảm ơn em đã suy nghĩ lại! Sao La yêu em lắm! ❤️\n\nHãy nhắn tin cho các bạn để nói chuyện về cách giúp em cân bằng thời gian nhé! 🤗');
+            }, 500);
+        }
+
+        function createConfetti() {
+            const confetti = document.createElement('div');
+            confetti.style.position = 'fixed';
+            confetti.style.width = '10px';
+            confetti.style.height = '10px';
+            confetti.style.backgroundColor = ['#667eea', '#764ba2', '#f093fb', '#4facfe', '#43e97b'][Math.floor(Math.random() * 5)];
+            confetti.style.left = Math.random() * 100 + '%';
+            confetti.style.top = '-10px';
+            confetti.style.borderRadius = '50%';
+            confetti.style.animation = 'confetti-fall 3s linear';
+            confetti.style.zIndex = '1000';
+            
+            document.body.appendChild(confetti);
+            
+            setTimeout(() => {
+                confetti.remove();
+            }, 3000);
+        }
+
+        // Tạo confetti ngẫu nhiên mỗi vài giây
+        setInterval(() => {
+            if (Math.random() > 0.7) {
+                createConfetti();
+            }
+        }, 500);
+    </script>
+</body>
+</html>
+
